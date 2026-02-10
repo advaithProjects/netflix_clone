@@ -5,6 +5,7 @@ import hero_banner from "../../assets/hero_banner.jpg";
 import hero_title from "../../assets/hero_title.png";
 import play_icon from "../../assets/Play_icon.png";
 import info_icon from "../../assets/info_icon.png";
+import Titlecards from "../../components/Titlecards/Titlecards";
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
             in modren Istanbul embarks on a quest to save the city from an
             immortal enemy.
           </p>
-          <div className="hero-bts">
+          <div className="hero-btns">
             <button className="btn">
               <img src={play_icon} alt="" />
               Play
@@ -29,8 +30,16 @@ const Home = () => {
               More Info
             </button>
           </div>
+          <Titlecards />
         </div>
       </div>
+      <div className="more-cards">
+        <Titlecards title={"Blockbuster on Netflix"}/>
+        <Titlecards title={"Only on Netflix"}/>
+        <Titlecards title={"Upcoming on Netflix"}/>
+        <Titlecards title={"Top Pics for You"}/>
+      </div>
+      
     </div>
   );
 };
