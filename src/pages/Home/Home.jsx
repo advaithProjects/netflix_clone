@@ -31,14 +31,14 @@ const Home = () => {
               More Info
             </button>
           </div>
-          <Titlecards />
+          {/* <Titlecards /> */}
         </div>
       </div>
       <div className="more-cards">
-        <Titlecards title={"Blockbuster on Netflix"} />
-        <Titlecards title={"Only on Netflix"} />
-        <Titlecards title={"Upcoming on Netflix"} />
-        <Titlecards title={"Top Pics for You"} />
+        <Titlecards title={"Blockbuster on Netflix"} category={"top_rated"}/>
+        <Titlecards title={"Only on Netflix"} category={"popular"} />
+        <Titlecards title={"Upcoming on Netflix"} category={"upcoming"}/>
+        <Titlecards title={"Top Pics for You"} category={"now_playing"} />
       </div>
       <Footer />
     </div>

@@ -10,8 +10,8 @@
   gap: 20px;
   overflow-x: scroll;
 }
-.card-list::-webkit-scrollbar{
-    display: none;
+.card-list::-webkit-scrollbar {
+  display: none;
 }
 .card-list img {
   width: 240px;
@@ -25,4 +25,6 @@
   position: absolute;
   bottom: 10px;
   right: 10px;
+  text-decoration: none;
+  color: white;
 }
