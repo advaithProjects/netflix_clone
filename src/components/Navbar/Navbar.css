@@ -16,7 +16,9 @@
 .navbar-left {
   display: flex;
   align-items: center;
+  font-size: 20px;
   gap: 50px;
+  
 }
 .navbar-left img {
   width: 90px;
@@ -28,6 +30,7 @@
 }
 .navbar-left ul li {
   cursor: pointer;
+  padding-left: 20px;
 }
 .navbar-right {
   display: flex;

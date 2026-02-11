@@ -44,7 +44,7 @@ const Player = () => {
         width="90%"
         height="90%"
         src={`https://www.youtube.com/embed/${apiData.key}`}
-        title="Tu Hi Mera Dil Hai Video Song ( Hindi ) | Raajahyog | Sai Ronakh, Ankita Saha | Ram Ganapathi | Arun"
+        title=""
         frameborder="0"
         allow="autoplay;"
         allowfullscreen
