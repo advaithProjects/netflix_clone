@@ -16,9 +16,8 @@
 .navbar-left {
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 17px;
   gap: 50px;
-  
 }
 .navbar-left img {
   width: 90px;
@@ -32,14 +31,37 @@
   cursor: pointer;
   padding-left: 20px;
 }
+.navbar-left ul li:hover {
+  opacity: 0.7;
+}
+.navbar-left ul li:active {
+  opacity: 0.5;
+}
 .navbar-right {
   display: flex;
   gap: 20px;
   align-items: center;
 }
+
 .navbar-right .icons {
   width: 20px;
   cursor: pointer;
+}
+.navbar-right .icons:hover {
+  opacity: 0.7;
+}
+.navbar-right .icons:active {
+  opacity: 0.5;
+}
+.navbar-right p {
+  font-size: 15px;
+  cursor: pointer;
+}
+.navbar-right p:hover {
+  opacity: 0.7;
+}
+.navbar-right p:active {
+  opacity: 0.5;
 }
 .navbar-right .profile {
   border-radius: 4px;
@@ -70,4 +92,7 @@
 .navbar .dropdown p {
   font-size: 13px;
   cursor: pointer;
+}
+.nav-dark{
+  background-color: black;
 }
