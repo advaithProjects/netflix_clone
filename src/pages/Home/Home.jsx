@@ -1,37 +1,41 @@
 import React from "react";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
-import hero_banner from "../../assets/hero_banner.jpg";
-import hero_title from "../../assets/hero_title.png";
 import play_icon from "../../assets/play_icon.png";
 import info_icon from "../../assets/info_icon.png";
 import Titlecards from "../../components/Titlecards/Titlecards";
 import Footer from "../../components/Footer/Footer";
+import Salaar_banner1 from "../../assets/Salaar_banner1.jpg";
+import Salaar_title from "../../assets/Salaar_title.png";
 
 const Home = () => {
   return (
     <div className="home">
       <Navbar />
       <div className="hero">
-        <img src={hero_banner} alt="" className="banner-img" />
+        <img src={Salaar_banner1} alt="" className="banner-img" />
         <div className="hero-caption">
-          <img src={hero_title} alt="" className="caption-img" />
+          <img src={Salaar_title} alt="" className="caption-img" />
           <p>
-            Discovering his ties to a secret ancient order, a young man living
-            in modren Istanbul embarks on a quest to save the city from an
-            immortal enemy.
+            It follows a violent story of friendship and betrayal set in the
+            fictional dystopian city-state of Khansaar. The word "Salaar" means
+            leader, commander, or chief.
           </p>
           <div className="hero-btns">
-            <button className="btn">
-              <img src={play_icon} alt="" />
-              Play
-            </button>
-            <button className="btn dark-btn">
-              <img src={info_icon} alt="" />
-              More Info
-            </button>
+            <a href="https://www.youtube.com/watch?v=4GPvYMKtrtI&t=30s">
+              <button className="btn">
+                <img src={play_icon} alt="" />
+                Play
+              </button>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Salaar:_Part_1_%E2%80%93_Ceasefire">
+              <button className="btn dark-btn">
+                <img src={info_icon} alt="" />
+                More Info
+              </button>
+            </a>
           </div>
-          {/* <Titlecards /> */}
+          <Titlecards />
         </div>
       </div>
       <div className="more-cards">
